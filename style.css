@@ -21,6 +21,10 @@ body {
   display: flex;
   align-items: center;
   padding-left: 1rem;
+ 
+}
+.cell-actions-cont :hover{
+  cursor: pointer;
 }
 .cell-actions-cont > * {
   display: inline-block;
