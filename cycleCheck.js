@@ -36,10 +36,11 @@ function isGraphCyclic(graphComponentmatrix) {
           visited,
           dfsVisited
         );
-        if (response === true) return true;
+        if (response === true) return [i, j];
       }
     }
   }
+  return null;
 }
 
 // start->visted(true),dfsVisited(true)
