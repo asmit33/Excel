@@ -1,13 +1,14 @@
+let collectedGraphComponent = [];
 let graphComponentmatrix = [];
 
-for (let i = 0; i < rows; i++) {
-  let row = [];
-  for (let j = 0; j < col; j++) {
-    // why Array -> because there will be more than 1 children to store
-    row.push([]);
-  }
-  graphComponentmatrix.push(row);
-}
+// for (let i = 0; i < rows; i++) {
+//   let row = [];
+//   for (let j = 0; j < col; j++) {
+//     // why Array -> because there will be more than 1 children to store
+//     row.push([]);
+//   }
+//   graphComponentmatrix.push(row);
+// }
 
 function isGraphCyclic(graphComponentmatrix) {
   //    dependency->visited,dfsVisited(2D array)

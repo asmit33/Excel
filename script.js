@@ -51,5 +51,5 @@ function addListenerForAddressDisplay(cell, i, j) {
 
 //By default click on first cell
 
-let firstCell = document.querySelector(".cell");
-firstCell.click();
+// let firstCell = document.querySelector(".cell");
+// firstCell.click();

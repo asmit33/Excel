@@ -72,7 +72,7 @@ body {
   background-color: #ecf0f1;
   display: flex;
   align-items: center;
-
+  justify-content: center;
   /* gap: 1rem; */
   /* padding-left: 0.5rem; */
   /* padding-right: 0.5rem; */
@@ -85,6 +85,9 @@ body {
   margin-left: 0.6rem;
   margin-right: 0.3rem;
 }
+.sheet-add-icon:hover{
+  cursor: pointer;
+}
 .sheets-folder-cont {
   display: flex;
   align-items: center;
@@ -92,14 +95,22 @@ body {
   width: calc(100vw - 2vw);
   margin-left: 0.3rem;
   margin-right: 0.3rem;
+  overflow: auto;
+
   /* background-color: violet; */
 }
+
 .sheet-folder {
   text-decoration: underline;
   font-weight: bold;
   text-decoration-thickness: 2px;
   margin-left: 0.5rem;
+  margin-right: 0.8rem;
 }
+.sheet-folder:hover{
+  cursor: pointer;
+}
+
 .grid-actions-cont {
   height: calc(100vh - 3rem - 3rem - 2rem - 3rem);
   position: relative;
