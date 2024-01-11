@@ -12,8 +12,17 @@ body {
   align-items: flex-end;
 }
 .page-actions {
-  margin: 1rem;
+  width: 3.5rem;
+  height: 2rem;
   color: #ecf0f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.selected-page-action{
+  background-color: #dfe4ea;
+  color: rgb(8, 134, 92);
+
 }
 .cell-actions-cont {
   height: 3rem;
@@ -39,6 +48,10 @@ body {
   padding: 0.2rem;
   border-radius: 2px;
   outline: none;
+}
+
+.BG{
+  width: 100%;
 }
 .formula-actions-cont {
   height: 2rem;

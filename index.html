@@ -12,7 +12,7 @@
   </head>
   <body>
     <div class="page-actions-cont">
-      <div class="page-actions">File</div>
+      <div class="page-actions selected-page-action">File</div>
       <div class="page-actions">Home</div>
       <div class="page-actions">Insert</div>
       <div class="page-actions">Layout</div>
@@ -29,6 +29,7 @@
         <option value="courier">Courier</option>
         <option value="cursive">Cursive</option>
         <option value="monospace">Monospace</option>
+        <option value="fantasy">Fantasy</option>
       </select>
       <select name="" class="font-size-prop">
         <option value="14">14</option>
@@ -45,12 +46,14 @@
       <span class="right material-icons alignment"> format_align_right </span>
       <div class="color-prop">
         <span class="material-icons"> format_color_text </span>
-        <input type="color" class="font-color-prop" />
+        <input type="color" class="font-color-prop BG" />
       </div>
       <div class="color-prop">
         <span class="material-icons"> format_color_fill </span>
-        <input type="color" class="bg-color-prop" />
+        <input type="color" class="bg-color-prop BG" />
       </div>
+      <span class="material-icons download"> cloud_download </span>
+      <span class="material-icons open"> cloud_upload </span>
     </div>
     <div class="formula-actions-cont">
       <input type="text" readonly class="address-bar" />
@@ -81,5 +84,6 @@
     <script src="./cyclePathTrace.js"></script>
     <script src="./formula.js"></script>
     <script src="./cutCopyPaste.js"></script>
+    <script src="./openSave.js"></script>
   </body>
 </html>
